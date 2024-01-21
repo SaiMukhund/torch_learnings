@@ -1,0 +1,3 @@
+smalltalkkb.tsv: https://github.com/alyssaong1/botframework-smalltalk/blob/master/smalltalkkb.tsv
+smalltalk2: https://github.com/zeloru/small-english-smalltalk-corpus/tree/master 
+chatterbot :https://github.com/gunthercox/chatterbot-corpus/tree/master?tab=readme-ov-file
