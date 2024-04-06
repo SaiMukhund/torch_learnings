@@ -53,7 +53,7 @@ def main():
     y=iris_data.iloc[:,-1].values
     print(X.shape)
     y=np.where(y=="Iris-virginica",0,1)
-    iris_classifier=Perceptron(eta=0.001,n_iter=5)
+    iris_classifier=Perceptron(eta=0.001,n_iter=50)
     iris_classifier.fit(X,y)
     plt.plot(range(1,len(iris_classifier.errors)+1),iris_classifier.errors)
     plt.show()
